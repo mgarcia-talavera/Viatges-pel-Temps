@@ -1,0 +1,28 @@
+{
+  "name": "viatgepeltemps",
+  "version": "1.0.0",
+  "description": "Web UOC",
+  "dependencies": {
+    "audio-buffer": "^4.0.4",
+    "audio-loader": "^1.0.3",
+    "audio-play": "^2.3.1",
+    "autoprefixer": "^9.8.8",
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.0.1",
+    "postcss": "^8.4.5",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "parcel-plugin-imagemin": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build",
+    "parcel:dev": "parcel index.html",
+    "parcel:build": "parcel build index.html",
+    "clean": "rimraf dist .parcel-cache .cache-loader"
+  },
+  "author": "Miquel Garcia-Talavera Roig",
+  "license": "ISC"
+}
