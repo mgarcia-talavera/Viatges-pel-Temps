@@ -176,18 +176,6 @@
   
     .circle {
     margin-left: 45%;
-    animation: 2s infinite alternate circle;
-    }
-  
-    @keyframes circle {
-      from {
-        -webkit-clip-path: circle(0%);
-        clip-path: circle(0%);
-      }
-      to {
-        -webkit-clip-path: circle(120px);
-        clip-path: circle(120px);
-      }
     }
   
     nav {
@@ -278,7 +266,7 @@
     Pantalla d'inici
     ************************************************************************/
     .home {
-      background-image: url(../images/rellotge.png);
+      background-image: url(../images/rellotge.webp);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center top;  
