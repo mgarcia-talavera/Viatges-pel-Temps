@@ -1,1 +1,0 @@
-{"mappings":"AACAA,QAAQC,IAAK,SAAaC,OADb","sources":["index.js"],"sourcesContent":["const name = 'world';\r\nconsole.log(`Hello ${name}`);"],"names":["console","log","concat"],"version":3,"file":"index.da04a2a2.js.map"}

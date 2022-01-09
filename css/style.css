@@ -369,12 +369,6 @@
       font-style: italic;
   
     }
-    
-    .img-fluid{
-  
-      max-width: 100%;
-  
-    }
   
     .li{
       font-size: 1.3rem;
@@ -397,7 +391,9 @@
       margin-top: 20px;
     }
   
-   
+   figure{
+     text-align: center;
+   }
   
     /********************************************************************************
     Pàgina presentació
